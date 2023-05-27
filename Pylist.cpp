@@ -296,17 +296,7 @@ public:
     
 };
 
-int main(){
-    Pylist<int> a = {1, 2}, b = {3, 4}, c;
-    c = a + b;
-    cout << c[0] << endl;
-    for (auto it=c.rbegin(); it!=c.rend(); --it) std::cout << *it << " ";
-    a += b;
-    for (auto it=a.begin(); it!=a.end(); it++) std::cout << *it << " ";
-}
 
-
-/*
 int main(){
 
     Pylist<int> L;
@@ -332,4 +322,3 @@ int main(){
     cout << cl[0] << endl;
     cout << "len = " << L.length() << endl;
 }
-*/
